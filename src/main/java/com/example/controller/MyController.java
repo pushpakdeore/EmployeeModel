@@ -1,22 +1,25 @@
-package com.example.employeemodel.controller;
+package com.example.controller;
 
-import com.example.employeemodel.EmployeeModelApplication;
-import com.example.employeemodel.dto.RequestDTO;
-import com.example.employeemodel.model.Employee;
-import com.example.employeemodel.service.EmployeeServiceImp;
-import jakarta.persistence.Lob;
+import com.example.dto.RequestDTO;
+import com.example.service.EmployeeServiceImp;
 import jakarta.validation.Valid;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDate;
 import java.util.List;
 
 @RestController
+@Slf4j
+@RequestMapping("/mycontroller")
 public class MyController {
 
-    @Autowired
     private EmployeeServiceImp employeeServiceImp;
+
+    @Autowired
+    public MyController(EmployeeServiceImp employeeServiceImp) {
+        this.employeeServiceImp = employeeServiceImp;
+    }
 
     @PostMapping("/add")
     public RequestDTO addEmployee(@Valid @RequestBody RequestDTO employee ){

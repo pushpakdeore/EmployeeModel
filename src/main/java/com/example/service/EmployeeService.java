@@ -1,7 +1,6 @@
-package com.example.employeemodel.service;
+package com.example.service;
 
-import com.example.employeemodel.dto.RequestDTO;
-import com.example.employeemodel.model.Employee;
+import com.example.dto.RequestDTO;
 
 import java.util.List;
 

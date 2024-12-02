@@ -1,17 +1,15 @@
-package com.example.employeemodel.service;
+package com.example.service;
 
-import com.example.employeemodel.dto.RequestDTO;
-import com.example.employeemodel.exception.CustomException;
-import com.example.employeemodel.model.Employee;
-import lombok.RequiredArgsConstructor;
-import com.example.employeemodel.repository.EmployeeRepository;
-import org.apache.logging.log4j.util.Base64Util;
+import com.example.dto.RequestDTO;
+import com.example.exception.CustomException;
+import com.example.model.Address;
+import com.example.model.Employee;
+import com.example.repository.EmployeeRepository;
 import org.springframework.stereotype.Service;
-
-import javax.swing.text.html.Option;
 import java.time.LocalDate;
 import java.util.*;
 import java.util.stream.Collectors;
+
 
 @Service
 public class EmployeeServiceImp implements EmployeeService {
@@ -26,10 +24,6 @@ public class EmployeeServiceImp implements EmployeeService {
         Employee employee  =mapTOEnity(requestDTO);
         Employee saveemployee =employeeRepository.save(employee);
         return mapToDTO(saveemployee);
-
-
-
-
     }
 
     @Override
@@ -40,12 +34,9 @@ public class EmployeeServiceImp implements EmployeeService {
 
     @Override
     public void deleteEmployeeById( long id) {
-        if (!employeeRepository.existsById( id)) {
-            throw new RuntimeException("Employee with ID " + id + " does not exist.");
-        }
+        RequestDTO existingEmployee = getEmployeeById(id);
         employeeRepository.deleteById((id));
     }
-
 
     @Override
     public List<RequestDTO> getAllEmployee() {
@@ -61,11 +52,13 @@ public class EmployeeServiceImp implements EmployeeService {
         Employee employee = mapTOEnity(existingEmploye);
         employee.setFName(requestDTO.getFName());
         employee.setLName(requestDTO.getLName());
+        employee.setAge(requestDTO.getAge());
         employee.setSalary(requestDTO.getSalary());
         employee.setProfilePic(requestDTO.getProfilePic());
         employee.setDepartments(requestDTO.getDepartments());
         employee.setGender(requestDTO.getGender());
         employee.setNotes(requestDTO.getNotes());
+        employee.setAddress(requestDTO.getAddresses()   );
         return mapToDTO(employeeRepository.save(employee));
 
     }
@@ -75,13 +68,18 @@ public class EmployeeServiceImp implements EmployeeService {
         requestDTO.setEmp_id(employee.getEmp_id());
         requestDTO.setFName(employee.getFName());
         requestDTO.setLName(employee.getLName());
+        requestDTO.setAge(employee.getAge());
         requestDTO.setSalary(employee.getSalary());
         requestDTO.setProfilePic(employee.getProfilePic());
 
         requestDTO.setDepartments(employee.getDepartments());
+        requestDTO.setAddresses(employee.getAddress());
         requestDTO.setDoj(employee.getDoj());
         requestDTO.setNotes(employee.getNotes());
         requestDTO.setGender((employee.getGender()));
+        if (employee.getAddress() != null && !employee.getAddress().isEmpty()) {
+            requestDTO.setAddresses(employee.getAddress());
+        }
         return requestDTO;
     }
     public Employee mapTOEnity(RequestDTO requestDTO){
@@ -89,14 +87,24 @@ public class EmployeeServiceImp implements EmployeeService {
         employee.setEmp_id(requestDTO.getEmp_id());
         employee.setFName(requestDTO.getFName());
         employee.setLName(requestDTO.getLName());
+        employee.setAge(requestDTO.getAge()
+        );
         employee.setSalary(requestDTO.getSalary());
         employee.setProfilePic(requestDTO.getProfilePic());
-
         employee.setDepartments(requestDTO.getDepartments());
         employee.setDoj(LocalDate.now());
         employee.setNotes(requestDTO.getNotes());
         employee.setGender(requestDTO.getGender());
+
+        if (requestDTO.getAddresses() != null) {
+            List<Address> addresses = requestDTO.getAddresses().stream().map(address -> {
+                address.setEmployee(employee);
+                return address;
+            }).collect(Collectors.toList());
+            employee.setAddress(addresses);
+        }
         return employee;
+
     }
 
 
