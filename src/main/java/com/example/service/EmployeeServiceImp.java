@@ -5,6 +5,7 @@ import com.example.exception.CustomException;
 import com.example.model.Address;
 import com.example.model.Employee;
 import com.example.repository.EmployeeRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.time.LocalDate;
 import java.util.*;
@@ -18,9 +19,12 @@ public class EmployeeServiceImp implements EmployeeService {
     public EmployeeServiceImp(EmployeeRepository employeeRepository){
         this.employeeRepository =employeeRepository;
     }
+    @Autowired
+    private EmailService emailService;
 
     @Override
     public RequestDTO addEmployee(RequestDTO requestDTO) {
+        emailService.sendEmail(requestDTO.getEmail(), "Data","Email Body");
         Employee employee  =mapTOEnity(requestDTO);
         Employee saveemployee =employeeRepository.save(employee);
         return mapToDTO(saveemployee);

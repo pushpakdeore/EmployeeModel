@@ -24,6 +24,7 @@ public class RequestDTO {
     @Min(value = 18,message = "Age must be 18+")
     @Max(value = 50, message = "Age limit less then 50")
     private int age;
+    private String email;
     private String profilePic;
     private List<String> departments;
     private List<Address> addresses;
