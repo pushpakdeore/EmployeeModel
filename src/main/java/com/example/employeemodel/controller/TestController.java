@@ -1,7 +1,7 @@
-package com.example.controller;
+package com.example.employeemodel.controller;
 
-import com.example.dto.RequestDTO;
-import com.example.service.EmployeeServiceImp;
+import com.example.employeemodel.dto.RequestDTO;
+import com.example.employeemodel.service.EmployeeServiceImp;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -1,6 +1,6 @@
-package com.example.dto;
+package com.example.employeemodel.dto;
 
-import com.example.model.Address;
+import com.example.employeemodel.model.Address;
 import jakarta.validation.constraints.*;
 import lombok.*;
 

@@ -1,10 +1,10 @@
-package com.example.service;
+package com.example.employeemodel.service;
 
-import com.example.dto.RequestDTO;
-import com.example.exception.CustomException;
-import com.example.model.Address;
-import com.example.model.Employee;
-import com.example.repository.EmployeeRepository;
+import com.example.employeemodel.dto.RequestDTO;
+import com.example.employeemodel.exception.CustomException;
+import com.example.employeemodel.model.Address;
+import com.example.employeemodel.model.Employee;
+import com.example.employeemodel.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.time.LocalDate;
@@ -24,7 +24,7 @@ public class EmployeeServiceImp implements EmployeeService {
 
     @Override
     public RequestDTO addEmployee(RequestDTO requestDTO) {
-        emailService.sendEmail(requestDTO.getEmail(), "Data","Email Body");
+        emailService.sendEmail(requestDTO.getEmail(), " Welcome to BrigeLabz!"," We are excited to have you as part of our team and look forward to the contributions you will make to our continued success.");
         Employee employee  =mapTOEnity(requestDTO);
         Employee saveemployee =employeeRepository.save(employee);
         return mapToDTO(saveemployee);

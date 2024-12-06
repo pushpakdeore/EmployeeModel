@@ -1,11 +1,10 @@
-package com.example.model;
+package com.example.employeemodel.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.ToString;
 
 @Entity
 @Data
@@ -21,6 +20,7 @@ public class Address {
     private String state;
     private String zipCode;
     @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name =  "emp_id")
     @JsonIgnore
     private Employee employee;
 

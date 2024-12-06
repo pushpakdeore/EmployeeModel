@@ -1,4 +1,4 @@
-package com.example.exception;
+package com.example.employeemodel.exception;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;

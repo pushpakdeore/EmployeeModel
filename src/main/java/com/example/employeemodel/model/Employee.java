@@ -1,4 +1,4 @@
-package com.example.model;
+package com.example.employeemodel.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -25,7 +25,8 @@ public class Employee {
     @ElementCollection
     @CollectionTable(name = "department_data",joinColumns = @JoinColumn(name="employee_id"))
     private List<String> departments;
-    @OneToMany(mappedBy = "employee",cascade = CascadeType.ALL)//Employee saveemployee =employeeRepository.save(employee);
+    @OneToMany(mappedBy = "employee",cascade = CascadeType.ALL)//Employee save employee =employeeRepository.save(employee);
+                                                              //employee save address save automatically.
     private List<Address> address;
     private LocalDate doj;
     private String notes;

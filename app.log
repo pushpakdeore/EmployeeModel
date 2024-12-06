@@ -1,194 +1,268 @@
-2024-12-02T09:56:55.561+05:30  INFO 3340 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : Starting EmployeeModelApplication using Java 18.0.2 with PID 3340 (C:\Users\PUSHPAK\IdeaProjects\EmployeeModel\target\classes started by PUSHPAK in C:\Users\PUSHPAK\IdeaProjects\EmployeeModel)
-2024-12-02T09:56:55.570+05:30 DEBUG 3340 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : Running with Spring Boot v3.3.5, Spring v6.1.14
-2024-12-02T09:56:55.571+05:30  INFO 3340 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : The following 1 profile is active: "h2"
-2024-12-02T09:56:56.563+05:30  INFO 3340 --- [EmployeeModel] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-02T09:56:56.623+05:30  INFO 3340 --- [EmployeeModel] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
-2024-12-02T09:56:57.723+05:30  INFO 3340 --- [EmployeeModel] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-02T09:56:57.745+05:30  INFO 3340 --- [EmployeeModel] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-02T09:56:57.745+05:30  INFO 3340 --- [EmployeeModel] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
-2024-12-02T09:56:57.819+05:30  INFO 3340 --- [EmployeeModel] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-02T09:56:57.819+05:30  INFO 3340 --- [EmployeeModel] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2184 ms
-2024-12-02T09:56:57.896+05:30  INFO 3340 --- [EmployeeModel] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-12-02T09:56:58.130+05:30  INFO 3340 --- [EmployeeModel] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:Employee_db user=SA
-2024-12-02T09:56:58.132+05:30  INFO 3340 --- [EmployeeModel] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-12-02T09:56:58.143+05:30  INFO 3340 --- [EmployeeModel] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:Employee_db'
-2024-12-02T09:56:58.399+05:30  INFO 3340 --- [EmployeeModel] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-02T09:56:58.475+05:30  INFO 3340 --- [EmployeeModel] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2024-12-02T09:56:58.518+05:30  INFO 3340 --- [EmployeeModel] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-02T09:56:58.873+05:30  INFO 3340 --- [EmployeeModel] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-02T09:56:59.868+05:30  INFO 3340 --- [EmployeeModel] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-02T09:56:59.911+05:30  INFO 3340 --- [EmployeeModel] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T09:57:00.569+05:30  WARN 3340 --- [EmployeeModel] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-02T09:57:01.381+05:30  INFO 3340 --- [EmployeeModel] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-12-02T09:57:01.388+05:30  INFO 3340 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : Started EmployeeModelApplication in 6.385 seconds (process running for 6.937)
-2024-12-02T09:57:01.391+05:30 ERROR 3340 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : Error
-2024-12-02T09:57:01.391+05:30  INFO 3340 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : info
-2024-12-02T09:57:01.391+05:30 DEBUG 3340 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : debug
-2024-12-02T09:57:33.663+05:30  INFO 3340 --- [EmployeeModel] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-02T09:57:33.664+05:30  INFO 3340 --- [EmployeeModel] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-12-02T09:57:33.666+05:30  INFO 3340 --- [EmployeeModel] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2024-12-02T09:59:01.510+05:30  INFO 3340 --- [EmployeeModel] [http-nio-8080-exec-4] c.e.employeemodel.aspect.LoggingAspect   : Entering method: RequestDTO controller.com.example.MyController.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T09:59:01.524+05:30 DEBUG 3340 --- [EmployeeModel] [http-nio-8080-exec-4] c.e.employeemodel.aspect.LoggingAspect   : Service method invoked: RequestDTO service.com.example.EmployeeServiceImp.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T09:59:01.739+05:30 DEBUG 3340 --- [EmployeeModel] [http-nio-8080-exec-4] c.e.employeemodel.aspect.LoggingAspect   : Service method finished: RequestDTO service.com.example.EmployeeServiceImp.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T09:59:01.763+05:30  INFO 3340 --- [EmployeeModel] [http-nio-8080-exec-4] c.e.employeemodel.aspect.LoggingAspect   : Exiting method: RequestDTO controller.com.example.MyController.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T09:59:02.896+05:30  INFO 3340 --- [EmployeeModel] [http-nio-8080-exec-5] c.e.employeemodel.aspect.LoggingAspect   : Entering method: RequestDTO controller.com.example.MyController.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T09:59:02.898+05:30 DEBUG 3340 --- [EmployeeModel] [http-nio-8080-exec-5] c.e.employeemodel.aspect.LoggingAspect   : Service method invoked: RequestDTO service.com.example.EmployeeServiceImp.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T09:59:02.902+05:30 DEBUG 3340 --- [EmployeeModel] [http-nio-8080-exec-5] c.e.employeemodel.aspect.LoggingAspect   : Service method finished: RequestDTO service.com.example.EmployeeServiceImp.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T09:59:02.910+05:30  INFO 3340 --- [EmployeeModel] [http-nio-8080-exec-5] c.e.employeemodel.aspect.LoggingAspect   : Exiting method: RequestDTO controller.com.example.MyController.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T09:59:03.882+05:30  INFO 3340 --- [EmployeeModel] [http-nio-8080-exec-6] c.e.employeemodel.aspect.LoggingAspect   : Entering method: RequestDTO controller.com.example.MyController.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T09:59:03.882+05:30 DEBUG 3340 --- [EmployeeModel] [http-nio-8080-exec-6] c.e.employeemodel.aspect.LoggingAspect   : Service method invoked: RequestDTO service.com.example.EmployeeServiceImp.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T09:59:03.888+05:30 DEBUG 3340 --- [EmployeeModel] [http-nio-8080-exec-6] c.e.employeemodel.aspect.LoggingAspect   : Service method finished: RequestDTO service.com.example.EmployeeServiceImp.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T09:59:03.894+05:30  INFO 3340 --- [EmployeeModel] [http-nio-8080-exec-6] c.e.employeemodel.aspect.LoggingAspect   : Exiting method: RequestDTO controller.com.example.MyController.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T10:01:17.596+05:30  INFO 3340 --- [EmployeeModel] [http-nio-8080-exec-9] c.e.employeemodel.aspect.LoggingAspect   : Entering method: RequestDTO controller.com.example.MyController.getEmployeeById(long) with arguments: [1]
-2024-12-02T10:01:17.597+05:30 DEBUG 3340 --- [EmployeeModel] [http-nio-8080-exec-9] c.e.employeemodel.aspect.LoggingAspect   : Service method invoked: RequestDTO service.com.example.EmployeeServiceImp.getEmployeeById(long) with arguments: [1]
-2024-12-02T10:01:17.657+05:30 DEBUG 3340 --- [EmployeeModel] [http-nio-8080-exec-9] c.e.employeemodel.aspect.LoggingAspect   : Service method finished: RequestDTO service.com.example.EmployeeServiceImp.getEmployeeById(long) with result: [FAILED toString()]
-2024-12-02T10:01:17.665+05:30  INFO 3340 --- [EmployeeModel] [http-nio-8080-exec-9] c.e.employeemodel.aspect.LoggingAspect   : Exiting method: RequestDTO controller.com.example.MyController.getEmployeeById(long) with result: [FAILED toString()]
-2024-12-02T10:01:24.805+05:30  INFO 3340 --- [EmployeeModel] [http-nio-8080-exec-10] c.e.employeemodel.aspect.LoggingAspect   : Entering method: List controller.com.example.MyController.getAllEmployee() with arguments: []
-2024-12-02T10:01:24.806+05:30 DEBUG 3340 --- [EmployeeModel] [http-nio-8080-exec-10] c.e.employeemodel.aspect.LoggingAspect   : Service method invoked: List service.com.example.EmployeeServiceImp.getAllEmployee() with arguments: []
-2024-12-02T10:01:24.941+05:30 DEBUG 3340 --- [EmployeeModel] [http-nio-8080-exec-10] c.e.employeemodel.aspect.LoggingAspect   : Service method finished: List service.com.example.EmployeeServiceImp.getAllEmployee() with result: [FAILED toString()]
-2024-12-02T10:01:24.948+05:30  INFO 3340 --- [EmployeeModel] [http-nio-8080-exec-10] c.e.employeemodel.aspect.LoggingAspect   : Exiting method: List controller.com.example.MyController.getAllEmployee() with result: [FAILED toString()]
-2024-12-02T10:06:04.390+05:30  INFO 3340 --- [EmployeeModel] [http-nio-8080-exec-9] c.e.employeemodel.aspect.LoggingAspect   : Entering method: RequestDTO controller.com.example.MyController.getEmployeeById(long) with arguments: [10]
-2024-12-02T10:06:04.390+05:30 DEBUG 3340 --- [EmployeeModel] [http-nio-8080-exec-9] c.e.employeemodel.aspect.LoggingAspect   : Service method invoked: RequestDTO service.com.example.EmployeeServiceImp.getEmployeeById(long) with arguments: [10]
-2024-12-02T10:06:04.394+05:30 ERROR 3340 --- [EmployeeModel] [http-nio-8080-exec-9] c.e.employeemodel.aspect.LoggingAspect   : Exception in method: RequestDTO controller.com.example.MyController.getEmployeeById(long) with message: ID not found
-2024-12-02T10:09:29.738+05:30  INFO 3340 --- [EmployeeModel] [http-nio-8080-exec-2] c.e.employeemodel.aspect.LoggingAspect   : Entering method: List controller.com.example.MyController.getAllEmployee() with arguments: []
-2024-12-02T10:09:29.738+05:30 DEBUG 3340 --- [EmployeeModel] [http-nio-8080-exec-2] c.e.employeemodel.aspect.LoggingAspect   : Service method invoked: List service.com.example.EmployeeServiceImp.getAllEmployee() with arguments: []
-2024-12-02T10:09:29.746+05:30 DEBUG 3340 --- [EmployeeModel] [http-nio-8080-exec-2] c.e.employeemodel.aspect.LoggingAspect   : Service method finished: List service.com.example.EmployeeServiceImp.getAllEmployee() with result: [FAILED toString()]
-2024-12-02T10:09:29.753+05:30  INFO 3340 --- [EmployeeModel] [http-nio-8080-exec-2] c.e.employeemodel.aspect.LoggingAspect   : Exiting method: List controller.com.example.MyController.getAllEmployee() with result: [FAILED toString()]
-2024-12-02T10:19:48.966+05:30  INFO 3340 --- [EmployeeModel] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T10:19:48.973+05:30  INFO 3340 --- [EmployeeModel] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-12-02T10:19:48.976+05:30  INFO 3340 --- [EmployeeModel] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-12-02T11:43:04.718+05:30  INFO 10680 --- [EmployeeModel] [main] com.example.EmployeeModelApplication     : Starting EmployeeModelApplication using Java 18.0.2 with PID 10680 (C:\Users\PUSHPAK\IdeaProjects\EmployeeModel\target\classes started by PUSHPAK in C:\Users\PUSHPAK\IdeaProjects\EmployeeModel)
-2024-12-02T11:43:04.720+05:30 DEBUG 10680 --- [EmployeeModel] [main] com.example.EmployeeModelApplication     : Running with Spring Boot v3.3.5, Spring v6.1.14
-2024-12-02T11:43:04.721+05:30  INFO 10680 --- [EmployeeModel] [main] com.example.EmployeeModelApplication     : The following 1 profile is active: "h2"
-2024-12-02T11:43:05.679+05:30  INFO 10680 --- [EmployeeModel] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-02T11:43:05.742+05:30  INFO 10680 --- [EmployeeModel] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
-2024-12-02T11:43:06.749+05:30  INFO 10680 --- [EmployeeModel] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-02T11:43:06.774+05:30  INFO 10680 --- [EmployeeModel] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-02T11:43:06.774+05:30  INFO 10680 --- [EmployeeModel] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
-2024-12-02T11:43:06.898+05:30  INFO 10680 --- [EmployeeModel] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-02T11:43:06.899+05:30  INFO 10680 --- [EmployeeModel] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2116 ms
-2024-12-02T11:43:07.028+05:30  INFO 10680 --- [EmployeeModel] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-12-02T11:43:07.327+05:30  INFO 10680 --- [EmployeeModel] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:Employee_db user=SA
-2024-12-02T11:43:07.328+05:30  INFO 10680 --- [EmployeeModel] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-12-02T11:43:07.341+05:30  INFO 10680 --- [EmployeeModel] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:Employee_db'
-2024-12-02T11:43:07.712+05:30  INFO 10680 --- [EmployeeModel] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-02T11:43:07.787+05:30  INFO 10680 --- [EmployeeModel] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2024-12-02T11:43:07.841+05:30  INFO 10680 --- [EmployeeModel] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-02T11:43:08.489+05:30  INFO 10680 --- [EmployeeModel] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-02T11:43:09.747+05:30  INFO 10680 --- [EmployeeModel] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-02T11:43:09.794+05:30  INFO 10680 --- [EmployeeModel] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T11:43:11.167+05:30  WARN 10680 --- [EmployeeModel] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-02T11:43:12.180+05:30  INFO 10680 --- [EmployeeModel] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-12-02T11:43:12.189+05:30  INFO 10680 --- [EmployeeModel] [main] com.example.EmployeeModelApplication     : Started EmployeeModelApplication in 8.0 seconds (process running for 8.515)
-2024-12-02T11:43:12.192+05:30 ERROR 10680 --- [EmployeeModel] [main] com.example.EmployeeModelApplication     : Error
-2024-12-02T11:43:12.192+05:30  INFO 10680 --- [EmployeeModel] [main] com.example.EmployeeModelApplication     : info
-2024-12-02T11:43:12.192+05:30 DEBUG 10680 --- [EmployeeModel] [main] com.example.EmployeeModelApplication     : debug
-2024-12-02T11:43:19.065+05:30  INFO 10680 --- [EmployeeModel] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-02T11:43:19.066+05:30  INFO 10680 --- [EmployeeModel] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-12-02T11:43:19.069+05:30  INFO 10680 --- [EmployeeModel] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2024-12-02T11:43:19.335+05:30  INFO 10680 --- [EmployeeModel] [http-nio-8080-exec-1] com.example.aspect.LoggingAspect         : Entering method: RequestDTO com.example.controller.MyController.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T11:43:19.348+05:30 DEBUG 10680 --- [EmployeeModel] [http-nio-8080-exec-1] com.example.aspect.LoggingAspect         : Service method invoked: RequestDTO com.example.service.EmployeeServiceImp.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T11:43:19.478+05:30 DEBUG 10680 --- [EmployeeModel] [http-nio-8080-exec-1] com.example.aspect.LoggingAspect         : Service method finished: RequestDTO com.example.service.EmployeeServiceImp.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T11:43:19.499+05:30  INFO 10680 --- [EmployeeModel] [http-nio-8080-exec-1] com.example.aspect.LoggingAspect         : Exiting method: RequestDTO com.example.controller.MyController.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T11:43:20.682+05:30  INFO 10680 --- [EmployeeModel] [http-nio-8080-exec-3] com.example.aspect.LoggingAspect         : Entering method: RequestDTO com.example.controller.MyController.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T11:43:20.682+05:30 DEBUG 10680 --- [EmployeeModel] [http-nio-8080-exec-3] com.example.aspect.LoggingAspect         : Service method invoked: RequestDTO com.example.service.EmployeeServiceImp.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T11:43:20.687+05:30 DEBUG 10680 --- [EmployeeModel] [http-nio-8080-exec-3] com.example.aspect.LoggingAspect         : Service method finished: RequestDTO com.example.service.EmployeeServiceImp.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T11:43:20.695+05:30  INFO 10680 --- [EmployeeModel] [http-nio-8080-exec-3] com.example.aspect.LoggingAspect         : Exiting method: RequestDTO com.example.controller.MyController.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T11:43:21.554+05:30  INFO 10680 --- [EmployeeModel] [http-nio-8080-exec-4] com.example.aspect.LoggingAspect         : Entering method: RequestDTO com.example.controller.MyController.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T11:43:21.554+05:30 DEBUG 10680 --- [EmployeeModel] [http-nio-8080-exec-4] com.example.aspect.LoggingAspect         : Service method invoked: RequestDTO com.example.service.EmployeeServiceImp.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T11:43:21.558+05:30 DEBUG 10680 --- [EmployeeModel] [http-nio-8080-exec-4] com.example.aspect.LoggingAspect         : Service method finished: RequestDTO com.example.service.EmployeeServiceImp.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T11:43:21.564+05:30  INFO 10680 --- [EmployeeModel] [http-nio-8080-exec-4] com.example.aspect.LoggingAspect         : Exiting method: RequestDTO com.example.controller.MyController.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T11:43:22.269+05:30  INFO 10680 --- [EmployeeModel] [http-nio-8080-exec-5] com.example.aspect.LoggingAspect         : Entering method: RequestDTO com.example.controller.MyController.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T11:43:22.269+05:30 DEBUG 10680 --- [EmployeeModel] [http-nio-8080-exec-5] com.example.aspect.LoggingAspect         : Service method invoked: RequestDTO com.example.service.EmployeeServiceImp.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T11:43:22.273+05:30 DEBUG 10680 --- [EmployeeModel] [http-nio-8080-exec-5] com.example.aspect.LoggingAspect         : Service method finished: RequestDTO com.example.service.EmployeeServiceImp.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T11:43:22.283+05:30  INFO 10680 --- [EmployeeModel] [http-nio-8080-exec-5] com.example.aspect.LoggingAspect         : Exiting method: RequestDTO com.example.controller.MyController.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T11:43:29.582+05:30  INFO 10680 --- [EmployeeModel] [http-nio-8080-exec-6] com.example.aspect.LoggingAspect         : Entering method: RequestDTO com.example.controller.MyController.getEmployeeById(long) with arguments: [1]
-2024-12-02T11:43:29.583+05:30 DEBUG 10680 --- [EmployeeModel] [http-nio-8080-exec-6] com.example.aspect.LoggingAspect         : Service method invoked: RequestDTO com.example.service.EmployeeServiceImp.getEmployeeById(long) with arguments: [1]
-2024-12-02T11:43:29.634+05:30 DEBUG 10680 --- [EmployeeModel] [http-nio-8080-exec-6] com.example.aspect.LoggingAspect         : Service method finished: RequestDTO com.example.service.EmployeeServiceImp.getEmployeeById(long) with result: [FAILED toString()]
-2024-12-02T11:43:29.645+05:30  INFO 10680 --- [EmployeeModel] [http-nio-8080-exec-6] com.example.aspect.LoggingAspect         : Exiting method: RequestDTO com.example.controller.MyController.getEmployeeById(long) with result: [FAILED toString()]
-2024-12-02T11:43:36.943+05:30  INFO 10680 --- [EmployeeModel] [http-nio-8080-exec-7] com.example.aspect.LoggingAspect         : Entering method: void com.example.controller.MyController.deleteEmplyeeById(long) with arguments: [3]
-2024-12-02T11:43:36.943+05:30 DEBUG 10680 --- [EmployeeModel] [http-nio-8080-exec-7] com.example.aspect.LoggingAspect         : Service method invoked: void com.example.service.EmployeeServiceImp.deleteEmployeeById(long) with arguments: [3]
-2024-12-02T11:43:36.960+05:30 DEBUG 10680 --- [EmployeeModel] [http-nio-8080-exec-7] com.example.aspect.LoggingAspect         : Service method finished: void com.example.service.EmployeeServiceImp.deleteEmployeeById(long) with result: null
-2024-12-02T11:43:36.960+05:30  INFO 10680 --- [EmployeeModel] [http-nio-8080-exec-7] com.example.aspect.LoggingAspect         : Exiting method: void com.example.controller.MyController.deleteEmplyeeById(long) with result: null
-2024-12-02T11:43:53.162+05:30  INFO 10680 --- [EmployeeModel] [http-nio-8080-exec-8] com.example.aspect.LoggingAspect         : Entering method: List com.example.controller.MyController.getAllEmployee() with arguments: []
-2024-12-02T11:43:53.162+05:30 DEBUG 10680 --- [EmployeeModel] [http-nio-8080-exec-8] com.example.aspect.LoggingAspect         : Service method invoked: List com.example.service.EmployeeServiceImp.getAllEmployee() with arguments: []
-2024-12-02T11:43:53.273+05:30 DEBUG 10680 --- [EmployeeModel] [http-nio-8080-exec-8] com.example.aspect.LoggingAspect         : Service method finished: List com.example.service.EmployeeServiceImp.getAllEmployee() with result: [FAILED toString()]
-2024-12-02T11:43:53.280+05:30  INFO 10680 --- [EmployeeModel] [http-nio-8080-exec-8] com.example.aspect.LoggingAspect         : Exiting method: List com.example.controller.MyController.getAllEmployee() with result: [FAILED toString()]
-2024-12-02T11:43:59.499+05:30  INFO 10680 --- [EmployeeModel] [http-nio-8080-exec-9] com.example.aspect.LoggingAspect         : Entering method: RequestDTO com.example.controller.MyController.getEmployeeById(long) with arguments: [10]
-2024-12-02T11:43:59.499+05:30 DEBUG 10680 --- [EmployeeModel] [http-nio-8080-exec-9] com.example.aspect.LoggingAspect         : Service method invoked: RequestDTO com.example.service.EmployeeServiceImp.getEmployeeById(long) with arguments: [10]
-2024-12-02T11:43:59.502+05:30 ERROR 10680 --- [EmployeeModel] [http-nio-8080-exec-9] com.example.aspect.LoggingAspect         : Exception in method: RequestDTO com.example.controller.MyController.getEmployeeById(long) with message: ID not found
-2024-12-02T11:49:56.322+05:30  INFO 10680 --- [EmployeeModel] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T11:49:56.327+05:30  INFO 10680 --- [EmployeeModel] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-12-02T11:49:56.329+05:30  INFO 10680 --- [EmployeeModel] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-12-02T11:59:43.927+05:30  INFO 2160 --- [EmployeeModel] [main] com.example.EmployeeModelApplication     : Starting EmployeeModelApplication using Java 18.0.2 with PID 2160 (C:\Users\PUSHPAK\IdeaProjects\EmployeeModel\target\classes started by PUSHPAK in C:\Users\PUSHPAK\IdeaProjects\EmployeeModel)
-2024-12-02T11:59:43.929+05:30 DEBUG 2160 --- [EmployeeModel] [main] com.example.EmployeeModelApplication     : Running with Spring Boot v3.3.5, Spring v6.1.14
-2024-12-02T11:59:43.930+05:30  INFO 2160 --- [EmployeeModel] [main] com.example.EmployeeModelApplication     : The following 1 profile is active: "h2"
-2024-12-02T11:59:44.694+05:30  INFO 2160 --- [EmployeeModel] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-02T11:59:44.750+05:30  INFO 2160 --- [EmployeeModel] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
-2024-12-02T11:59:45.691+05:30  INFO 2160 --- [EmployeeModel] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-02T11:59:45.713+05:30  INFO 2160 --- [EmployeeModel] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-02T11:59:45.714+05:30  INFO 2160 --- [EmployeeModel] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
-2024-12-02T11:59:45.801+05:30  INFO 2160 --- [EmployeeModel] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-02T11:59:45.802+05:30  INFO 2160 --- [EmployeeModel] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1830 ms
-2024-12-02T11:59:45.853+05:30  INFO 2160 --- [EmployeeModel] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-12-02T11:59:46.075+05:30  INFO 2160 --- [EmployeeModel] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:Employee_db user=SA
-2024-12-02T11:59:46.076+05:30  INFO 2160 --- [EmployeeModel] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-12-02T11:59:46.086+05:30  INFO 2160 --- [EmployeeModel] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:Employee_db'
-2024-12-02T11:59:46.276+05:30  INFO 2160 --- [EmployeeModel] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-02T11:59:46.355+05:30  INFO 2160 --- [EmployeeModel] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2024-12-02T11:59:46.392+05:30  INFO 2160 --- [EmployeeModel] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-02T11:59:46.720+05:30  INFO 2160 --- [EmployeeModel] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-02T11:59:47.668+05:30  INFO 2160 --- [EmployeeModel] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-02T11:59:47.706+05:30  INFO 2160 --- [EmployeeModel] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T11:59:48.419+05:30  WARN 2160 --- [EmployeeModel] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-02T11:59:49.189+05:30  INFO 2160 --- [EmployeeModel] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-12-02T11:59:49.198+05:30  INFO 2160 --- [EmployeeModel] [main] com.example.EmployeeModelApplication     : Started EmployeeModelApplication in 5.744 seconds (process running for 6.206)
-2024-12-02T11:59:49.201+05:30 ERROR 2160 --- [EmployeeModel] [main] com.example.EmployeeModelApplication     : Error
-2024-12-02T11:59:49.201+05:30  INFO 2160 --- [EmployeeModel] [main] com.example.EmployeeModelApplication     : info
-2024-12-02T11:59:49.201+05:30 DEBUG 2160 --- [EmployeeModel] [main] com.example.EmployeeModelApplication     : debug
-2024-12-02T12:00:02.723+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-02T12:00:02.723+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-12-02T12:00:02.724+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-12-02T12:00:02.976+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-1] com.example.aspect.LoggingAspect         : Entering method: RequestDTO com.example.controller.MyController.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T12:00:02.991+05:30 DEBUG 2160 --- [EmployeeModel] [http-nio-8080-exec-1] com.example.aspect.LoggingAspect         : Service method invoked: RequestDTO com.example.service.EmployeeServiceImp.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T12:00:03.167+05:30 DEBUG 2160 --- [EmployeeModel] [http-nio-8080-exec-1] com.example.aspect.LoggingAspect         : Service method finished: RequestDTO com.example.service.EmployeeServiceImp.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T12:00:03.196+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-1] com.example.aspect.LoggingAspect         : Exiting method: RequestDTO com.example.controller.MyController.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T12:00:07.799+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-3] com.example.aspect.LoggingAspect         : Entering method: RequestDTO com.example.controller.MyController.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T12:00:07.800+05:30 DEBUG 2160 --- [EmployeeModel] [http-nio-8080-exec-3] com.example.aspect.LoggingAspect         : Service method invoked: RequestDTO com.example.service.EmployeeServiceImp.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T12:00:07.807+05:30 DEBUG 2160 --- [EmployeeModel] [http-nio-8080-exec-3] com.example.aspect.LoggingAspect         : Service method finished: RequestDTO com.example.service.EmployeeServiceImp.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T12:00:07.819+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-3] com.example.aspect.LoggingAspect         : Exiting method: RequestDTO com.example.controller.MyController.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T12:00:08.635+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-4] com.example.aspect.LoggingAspect         : Entering method: RequestDTO com.example.controller.MyController.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T12:00:08.636+05:30 DEBUG 2160 --- [EmployeeModel] [http-nio-8080-exec-4] com.example.aspect.LoggingAspect         : Service method invoked: RequestDTO com.example.service.EmployeeServiceImp.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T12:00:08.640+05:30 DEBUG 2160 --- [EmployeeModel] [http-nio-8080-exec-4] com.example.aspect.LoggingAspect         : Service method finished: RequestDTO com.example.service.EmployeeServiceImp.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T12:00:08.647+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-4] com.example.aspect.LoggingAspect         : Exiting method: RequestDTO com.example.controller.MyController.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T12:00:09.363+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-5] com.example.aspect.LoggingAspect         : Entering method: RequestDTO com.example.controller.MyController.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T12:00:09.365+05:30 DEBUG 2160 --- [EmployeeModel] [http-nio-8080-exec-5] com.example.aspect.LoggingAspect         : Service method invoked: RequestDTO com.example.service.EmployeeServiceImp.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T12:00:09.369+05:30 DEBUG 2160 --- [EmployeeModel] [http-nio-8080-exec-5] com.example.aspect.LoggingAspect         : Service method finished: RequestDTO com.example.service.EmployeeServiceImp.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T12:00:09.380+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-5] com.example.aspect.LoggingAspect         : Exiting method: RequestDTO com.example.controller.MyController.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T12:00:11.463+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-6] com.example.aspect.LoggingAspect         : Entering method: RequestDTO com.example.controller.MyController.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T12:00:11.463+05:30 DEBUG 2160 --- [EmployeeModel] [http-nio-8080-exec-6] com.example.aspect.LoggingAspect         : Service method invoked: RequestDTO com.example.service.EmployeeServiceImp.addEmployee(RequestDTO) with arguments: [RequestDTO(emp_id=0, fName=Smit, lName=Deore, salary=75000.0, age=45, profilePic=https://example.com/profilepic.jpg, departments=[HR, Finance, Development], addresses=[Address(address_id=0, houseNo=123, street=Karanjad, city=Pune, state=ST Road, zipCode=10001, employee=null), Address(address_id=0, houseNo=456, street=Kumar surdhi, city=Los Angeles, state=CA, zipCode=90001, employee=null)], doj=null, notes=A highly skilled and diligent employee., gender=Male)]
-2024-12-02T12:00:11.467+05:30 DEBUG 2160 --- [EmployeeModel] [http-nio-8080-exec-6] com.example.aspect.LoggingAspect         : Service method finished: RequestDTO com.example.service.EmployeeServiceImp.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T12:00:11.473+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-6] com.example.aspect.LoggingAspect         : Exiting method: RequestDTO com.example.controller.MyController.addEmployee(RequestDTO) with result: [FAILED toString()]
-2024-12-02T12:00:18.404+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-7] com.example.aspect.LoggingAspect         : Entering method: RequestDTO com.example.controller.MyController.getEmployeeById(long) with arguments: [1]
-2024-12-02T12:00:18.405+05:30 DEBUG 2160 --- [EmployeeModel] [http-nio-8080-exec-7] com.example.aspect.LoggingAspect         : Service method invoked: RequestDTO com.example.service.EmployeeServiceImp.getEmployeeById(long) with arguments: [1]
-2024-12-02T12:00:18.466+05:30 DEBUG 2160 --- [EmployeeModel] [http-nio-8080-exec-7] com.example.aspect.LoggingAspect         : Service method finished: RequestDTO com.example.service.EmployeeServiceImp.getEmployeeById(long) with result: [FAILED toString()]
-2024-12-02T12:00:18.473+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-7] com.example.aspect.LoggingAspect         : Exiting method: RequestDTO com.example.controller.MyController.getEmployeeById(long) with result: [FAILED toString()]
-2024-12-02T12:00:22.724+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-8] com.example.aspect.LoggingAspect         : Entering method: List com.example.controller.MyController.getAllEmployee() with arguments: []
-2024-12-02T12:00:22.725+05:30 DEBUG 2160 --- [EmployeeModel] [http-nio-8080-exec-8] com.example.aspect.LoggingAspect         : Service method invoked: List com.example.service.EmployeeServiceImp.getAllEmployee() with arguments: []
-2024-12-02T12:00:22.861+05:30 DEBUG 2160 --- [EmployeeModel] [http-nio-8080-exec-8] com.example.aspect.LoggingAspect         : Service method finished: List com.example.service.EmployeeServiceImp.getAllEmployee() with result: [FAILED toString()]
-2024-12-02T12:00:22.868+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-8] com.example.aspect.LoggingAspect         : Exiting method: List com.example.controller.MyController.getAllEmployee() with result: [FAILED toString()]
-2024-12-02T12:00:30.869+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-9] com.example.aspect.LoggingAspect         : Entering method: void com.example.controller.MyController.deleteEmplyeeById(long) with arguments: [1]
-2024-12-02T12:00:30.870+05:30 DEBUG 2160 --- [EmployeeModel] [http-nio-8080-exec-9] com.example.aspect.LoggingAspect         : Service method invoked: void com.example.service.EmployeeServiceImp.deleteEmployeeById(long) with arguments: [1]
-2024-12-02T12:00:30.897+05:30 DEBUG 2160 --- [EmployeeModel] [http-nio-8080-exec-9] com.example.aspect.LoggingAspect         : Service method finished: void com.example.service.EmployeeServiceImp.deleteEmployeeById(long) with result: null
-2024-12-02T12:00:30.897+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-9] com.example.aspect.LoggingAspect         : Exiting method: void com.example.controller.MyController.deleteEmplyeeById(long) with result: null
-2024-12-02T12:00:40.308+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-10] com.example.aspect.LoggingAspect         : Entering method: List com.example.controller.MyController.getAllEmployee() with arguments: []
-2024-12-02T12:00:40.309+05:30 DEBUG 2160 --- [EmployeeModel] [http-nio-8080-exec-10] com.example.aspect.LoggingAspect         : Service method invoked: List com.example.service.EmployeeServiceImp.getAllEmployee() with arguments: []
-2024-12-02T12:00:40.314+05:30 DEBUG 2160 --- [EmployeeModel] [http-nio-8080-exec-10] com.example.aspect.LoggingAspect         : Service method finished: List com.example.service.EmployeeServiceImp.getAllEmployee() with result: [FAILED toString()]
-2024-12-02T12:00:40.324+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-10] com.example.aspect.LoggingAspect         : Exiting method: List com.example.controller.MyController.getAllEmployee() with result: [FAILED toString()]
-2024-12-02T12:00:48.014+05:30  INFO 2160 --- [EmployeeModel] [http-nio-8080-exec-2] com.example.aspect.LoggingAspect         : Entering method: RequestDTO com.example.controller.MyController.getEmployeeById(long) with arguments: [10]
-2024-12-02T12:00:48.015+05:30 DEBUG 2160 --- [EmployeeModel] [http-nio-8080-exec-2] com.example.aspect.LoggingAspect         : Service method invoked: RequestDTO com.example.service.EmployeeServiceImp.getEmployeeById(long) with arguments: [10]
-2024-12-02T12:00:48.019+05:30 ERROR 2160 --- [EmployeeModel] [http-nio-8080-exec-2] com.example.aspect.LoggingAspect         : Exception in method: RequestDTO com.example.controller.MyController.getEmployeeById(long) with message: ID not found
-2024-12-02T12:54:43.501+05:30  WARN 2160 --- [EmployeeModel] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m27s143ms72µs400ns).
-2024-12-02T13:05:38.410+05:30  INFO 2160 --- [EmployeeModel] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-02T13:05:38.434+05:30  INFO 2160 --- [EmployeeModel] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-12-02T13:05:38.441+05:30  INFO 2160 --- [EmployeeModel] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-06T11:49:20.698+05:30  INFO 21104 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : Starting EmployeeModelApplication using Java 18.0.2 with PID 21104 (C:\Users\PUSHPAK\IdeaProjects\EmployeeModel\target\classes started by PUSHPAK in C:\Users\PUSHPAK\IdeaProjects\EmployeeModel)
+2024-12-06T11:49:20.706+05:30 DEBUG 21104 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-06T11:49:20.707+05:30  INFO 21104 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : The following 1 profile is active: "sql"
+2024-12-06T11:49:21.481+05:30  INFO 21104 --- [EmployeeModel] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-06T11:49:21.541+05:30  INFO 21104 --- [EmployeeModel] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+2024-12-06T11:49:22.496+05:30  INFO 21104 --- [EmployeeModel] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-06T11:49:22.514+05:30  INFO 21104 --- [EmployeeModel] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-06T11:49:22.514+05:30  INFO 21104 --- [EmployeeModel] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-12-06T11:49:22.585+05:30  INFO 21104 --- [EmployeeModel] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-06T11:49:22.585+05:30  INFO 21104 --- [EmployeeModel] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1831 ms
+2024-12-06T11:49:22.826+05:30  INFO 21104 --- [EmployeeModel] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-06T11:49:22.906+05:30  INFO 21104 --- [EmployeeModel] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-06T11:49:22.947+05:30  INFO 21104 --- [EmployeeModel] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-06T11:49:23.315+05:30  INFO 21104 --- [EmployeeModel] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-06T11:49:23.359+05:30  INFO 21104 --- [EmployeeModel] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-06T11:49:23.661+05:30  INFO 21104 --- [EmployeeModel] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7717b4a0
+2024-12-06T11:49:23.663+05:30  INFO 21104 --- [EmployeeModel] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-06T11:49:24.657+05:30  INFO 21104 --- [EmployeeModel] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-06T11:49:24.681+05:30  WARN 21104 --- [EmployeeModel] [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table address drop foreign key FKl0xj71swcrc1dk2cc7bhur2d1" via JDBC [Table 'test1234.address' doesn't exist]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table address drop foreign key FKl0xj71swcrc1dk2cc7bhur2d1" via JDBC [Table 'test1234.address' doesn't exist]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:217) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:476) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropConstraintsTablesSequences(SchemaDropperImpl.java:242) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:215) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:185) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:155) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:115) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:238) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.5.jar:3.3.5]
+	at com.example.employeemodel.EmployeeModelApplication.main(EmployeeModelApplication.java:11) ~[classes/:na]
+Caused by: java.sql.SQLSyntaxErrorException: Table 'test1234.address' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	... 39 common frames omitted
+
+2024-12-06T11:49:24.687+05:30  WARN 21104 --- [EmployeeModel] [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table department_data drop foreign key FKl9u3vgc8sd2m2lvgt86syxish" via JDBC [Table 'test1234.department_data' doesn't exist]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table department_data drop foreign key FKl9u3vgc8sd2m2lvgt86syxish" via JDBC [Table 'test1234.department_data' doesn't exist]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:217) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:476) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropConstraintsTablesSequences(SchemaDropperImpl.java:242) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:215) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:185) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:155) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:115) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:238) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.5.jar:3.3.5]
+	at com.example.employeemodel.EmployeeModelApplication.main(EmployeeModelApplication.java:11) ~[classes/:na]
+Caused by: java.sql.SQLSyntaxErrorException: Table 'test1234.department_data' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	... 39 common frames omitted
+
+2024-12-06T11:49:24.811+05:30  INFO 21104 --- [EmployeeModel] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-06T11:49:25.877+05:30  WARN 21104 --- [EmployeeModel] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-06T11:49:26.763+05:30  INFO 21104 --- [EmployeeModel] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-06T11:49:26.773+05:30  INFO 21104 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : Started EmployeeModelApplication in 6.546 seconds (process running for 7.001)
+2024-12-06T11:49:26.776+05:30 ERROR 21104 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : Error
+2024-12-06T11:49:26.777+05:30  INFO 21104 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : info
+2024-12-06T11:49:26.777+05:30 DEBUG 21104 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : debug
+2024-12-06T11:51:13.163+05:30  INFO 21104 --- [EmployeeModel] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-06T11:51:13.205+05:30  INFO 21104 --- [EmployeeModel] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-06T11:51:13.212+05:30  INFO 21104 --- [EmployeeModel] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-06T11:51:16.523+05:30  INFO 11008 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : Starting EmployeeModelApplication using Java 18.0.2 with PID 11008 (C:\Users\PUSHPAK\IdeaProjects\EmployeeModel\target\classes started by PUSHPAK in C:\Users\PUSHPAK\IdeaProjects\EmployeeModel)
+2024-12-06T11:51:16.525+05:30 DEBUG 11008 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-06T11:51:16.526+05:30  INFO 11008 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : The following 1 profile is active: "sql"
+2024-12-06T11:51:17.243+05:30  INFO 11008 --- [EmployeeModel] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-06T11:51:17.292+05:30  INFO 11008 --- [EmployeeModel] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
+2024-12-06T11:51:18.080+05:30  INFO 11008 --- [EmployeeModel] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-06T11:51:18.094+05:30  INFO 11008 --- [EmployeeModel] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-06T11:51:18.095+05:30  INFO 11008 --- [EmployeeModel] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-12-06T11:51:18.156+05:30  INFO 11008 --- [EmployeeModel] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-06T11:51:18.156+05:30  INFO 11008 --- [EmployeeModel] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1584 ms
+2024-12-06T11:51:18.373+05:30  INFO 11008 --- [EmployeeModel] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-06T11:51:18.438+05:30  INFO 11008 --- [EmployeeModel] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-06T11:51:18.472+05:30  INFO 11008 --- [EmployeeModel] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-06T11:51:18.734+05:30  INFO 11008 --- [EmployeeModel] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-06T11:51:18.760+05:30  INFO 11008 --- [EmployeeModel] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-06T11:51:18.999+05:30  INFO 11008 --- [EmployeeModel] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42b4df5a
+2024-12-06T11:51:19.001+05:30  INFO 11008 --- [EmployeeModel] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-06T11:51:19.802+05:30  INFO 11008 --- [EmployeeModel] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-06T11:51:19.821+05:30  WARN 11008 --- [EmployeeModel] [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table address drop foreign key FKqle0sh55wsafol7dkqfqu1shc" via JDBC [Table 'test1234.address' doesn't exist]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table address drop foreign key FKqle0sh55wsafol7dkqfqu1shc" via JDBC [Table 'test1234.address' doesn't exist]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:217) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:476) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropConstraintsTablesSequences(SchemaDropperImpl.java:242) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:215) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:185) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:155) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:115) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:238) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.5.jar:3.3.5]
+	at com.example.employeemodel.EmployeeModelApplication.main(EmployeeModelApplication.java:11) ~[classes/:na]
+Caused by: java.sql.SQLSyntaxErrorException: Table 'test1234.address' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	... 39 common frames omitted
+
+2024-12-06T11:51:19.826+05:30  WARN 11008 --- [EmployeeModel] [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table department_data drop foreign key FKl9u3vgc8sd2m2lvgt86syxish" via JDBC [Table 'test1234.department_data' doesn't exist]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table department_data drop foreign key FKl9u3vgc8sd2m2lvgt86syxish" via JDBC [Table 'test1234.department_data' doesn't exist]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:217) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:476) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropConstraintsTablesSequences(SchemaDropperImpl.java:242) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:215) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:185) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:155) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:115) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:238) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.5.jar:3.3.5]
+	at com.example.employeemodel.EmployeeModelApplication.main(EmployeeModelApplication.java:11) ~[classes/:na]
+Caused by: java.sql.SQLSyntaxErrorException: Table 'test1234.department_data' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	... 39 common frames omitted
+
+2024-12-06T11:51:19.943+05:30  INFO 11008 --- [EmployeeModel] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-06T11:51:20.660+05:30  WARN 11008 --- [EmployeeModel] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-06T11:51:21.550+05:30  INFO 11008 --- [EmployeeModel] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-06T11:51:21.559+05:30  INFO 11008 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : Started EmployeeModelApplication in 5.455 seconds (process running for 5.847)
+2024-12-06T11:51:21.562+05:30 ERROR 11008 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : Error
+2024-12-06T11:51:21.562+05:30  INFO 11008 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : info
+2024-12-06T11:51:21.562+05:30 DEBUG 11008 --- [EmployeeModel] [main] c.e.e.EmployeeModelApplication           : debug
+2024-12-06T12:03:14.107+05:30  INFO 11008 --- [EmployeeModel] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-06T12:03:14.150+05:30  INFO 11008 --- [EmployeeModel] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-06T12:03:14.155+05:30  INFO 11008 --- [EmployeeModel] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
